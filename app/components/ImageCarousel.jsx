@@ -21,7 +21,7 @@ export default function ImageCarousel() {
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`
   }
   return (
-    <div className=''>
+    <div className='opacity-50'>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -35,7 +35,7 @@ export default function ImageCarousel() {
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         onAutoplayTimeLeft={onAutoplayTimeLeft}
-        className='h-96'
+        className='h-72'
       >
         <SwiperSlide>
           <Image

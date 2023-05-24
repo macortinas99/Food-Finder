@@ -3,7 +3,7 @@ import HeroHeader from './components/HeroHeader'
 
 export default function Home() {
   return (
-    <div>
+    <div className=''>
       <HeroHeader />
     </div>
   )

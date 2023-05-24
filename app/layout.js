@@ -1,13 +1,12 @@
 import Map from './components/Map'
 import Navbar from './components/Navbar'
 import './globals.css'
-import { Inter } from 'next/font/google'
-import { Roboto } from 'next/font/google'
+import { Inter, Libre_Baskerville } from 'next/font/google'
 
-const robot = Roboto({
+const LB = Libre_Baskerville({
   weight: '400',
   subsets: ['latin'],
-  variable: '--font-robot',
+  variable: '--font-LibreBaskerville',
 })
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
@@ -20,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body className={LB.variable}>
         <Navbar />
         {children}
       </body>

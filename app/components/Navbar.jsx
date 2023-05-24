@@ -10,8 +10,8 @@ function Navbar() {
   console.log(path)
 
   return (
-    <nav className='bg-white dark:bg-gray-900 fixed w-full h-[8%] z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600'>
-      <div className='max-w-screen-xl h-[100%] flex flex-wrap items-center justify-between mx-auto'>
+    <nav className='bg-white dark:bg-gray-900 sticky w-full h-16 z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600'>
+      <div className='max-w-screen-xl h-[100%] flex flex-wrap items-center justify-around mx-auto'>
         <div className='flex items-center'>
           <div className='relative w-8 h-8 mr-2'>
             <Image

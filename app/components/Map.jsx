@@ -16,7 +16,7 @@ function Map() {
     })
   }, [])
 
-  return <div id='map' className='w-screen h-screen '></div>
+  return <div id='map' className='w-screen h-screen z-[-1]'></div>
 }
 
 export default Map
