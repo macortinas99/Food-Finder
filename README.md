@@ -24,7 +24,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 ## How to set up MongoDB / Prisma
-
+Create a 'lib' folder in the root directory. Inside the lib folder create a folder called 'prisma'. Inside the prisma folder create a 'index.js' file. 
+In the index.js file we will create some functions that can be exported and used throughout our project.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
