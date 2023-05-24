@@ -3,7 +3,7 @@ import Map from '../components/Map'
 
 function page() {
   return (
-    <div>
+    <div className='mt-[5%]'>
       <Map />
     </div>
   )
